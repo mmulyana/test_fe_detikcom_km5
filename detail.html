@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blogs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg position-absolute w-100 navbar-dark"
+      style="z-index: 50"
+    >
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand navbar-brand-ctrsa" href="./index.html">
+          team<span style="color: #5468e7">.</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-center" style="gap: 56px">
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="#">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-link-ctrsa" href="#">Get Access</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top -->
+    <section id="blog">
+      <div class="container-blog">
+        <div class="container-blog__top">
+          <h1>
+            Data exported by Team Cloud organization administrators contained
+            private files
+          </h1>
+          <div class="blog__card-author">
+            <img src="./assets/img/faces-1.png" alt="face" />
+            <p>Mark Brooklyn</p>
+            <span>|</span>
+            <p>June 14, 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-blog-img">
+        <img src="./assets/img/detail-blog.png" alt="blog detail" />
+      </div>
+
+      <div class="container-blog container-blog-content">
+        <p>
+          Administrators of Team Cloud organizations can export public data from
+          their organization via the organization settings menu. The exports
+          include all the data that appears in public streams, and can be used
+          to migrate from Team Cloud to self-hosting Team. Note that exporting
+          private data is a separate process that requires contacting Team
+          Support.
+        </p>
+        <p>
+          Due to a bug in the public export code, exports of public data
+          contained all uploaded files, even those from private messages and
+          private streams. This may have allowed organization owners or
+          administrators to extract uploaded files that they were not otherwise
+          allowed to access. The content of non-public messages was never
+          included in public exports.
+        </p>
+        <p>
+          This bug has existed since the public export feature was implemented
+          in August 2019. We have deleted all existing Team Cloud exports from
+          our servers, and will be making changes to auto-expire all exports
+          after 7 days in the future. This bug was fixed for self-hosted users
+          in the Team Server 5.4 release.
+        </p>
+        <p>
+          We have notified by email all administrators and users in
+          non-deactivated Team Cloud organizations who may have been impacted by
+          this bug. As many organizations have never exported their data, most
+          Team Cloud users were not affected.
+        </p>
+        <p>
+          We would like to thank Antoine Benoist for bringing this issue to our
+          attention.
+        </p>
+      </div>
+
+      <div class="container-blog container-blog-author">
+        <div class="blog-author-inner">
+          <img src="./assets/img/faces-author.png" alt="author" />
+          <div>
+            <h4>WRITTEN BY</h4>
+            <h3>Mark Brooklyn</h3>
+            <p>
+              COO at Team. Author of the upcoming book on Team Management and
+              Leadership.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="container-blog container-list" />
+
+      <div class="container-blog container-comment">
+        <p class="container-comment-title">Join the conversation</p>
+        <div class="container-comment-box">
+          <img src="./assets/img/faces-coment.png" alt="comment profile">
+          <textarea placeholder="Comments"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__logo">
+            <a class="navbar-brand navbar-brand-ctrsa" href="#">
+              team<span style="color: #5468e7">.</span>
+            </a>
+            <p style="color: #f5f5f5; font-size: 14px; margin-top: 1rem">
+              Collaboration platform for mordern team
+            </p>
+          </div>
+          <div class="footer_links">
+            <ul>
+              <li>
+                <a href="#">Company</a>
+              </li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Screen Sharing</a></li>
+              <li><a href="#">iOS & Android Apps</a></li>
+              <li><a href="#">File Sharing</a></li>
+              <li><a href="#">User Management</a></li>
+            </ul>
+            <ul>
+              <li>Contact Us</li>
+              <li>info@teamapp.com</li>
+              <li>1-800-200-300</li>
+              <li>1010 Sunset Blv. Palo Alto, California</li>
+            </ul>
+            <ul>
+              <li>Stay up to date</li>
+              <li>Subscribe to our newseller</li>
+              <li>
+                <div class="search__footer">
+                  <input type="text" placeholder="Email" />
+                  <img
+                    src="./assets/img/arrow-right-footer.svg"
+                    alt="arrow-right"
+                    style="
+                      position: absolute;
+                      right: 1rem;
+                      top: 50%;
+                      transform: translateY(-50%);
+                      width: 24px;
+                      height: 24px;
+                    "
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__below">
+          <p>© Copyright Team Inc.</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

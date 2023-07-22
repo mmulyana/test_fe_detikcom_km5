@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg position-absolute w-100"
+      style="z-index: 50"
+    >
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand navbar-brand-ctrsa" href="#">
+          team<span style="color: #5468e7">.</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-center" style="gap: 56px">
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="./blogs.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-ctrsa" href="#">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-link-ctrsa" href="#">Get Access</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- top -->
+    <section id="hero" class="position-relative">
+      <div
+        class="container d-flex justify-content-start align-items-center flex-col h-100"
+      >
+        <div class="hero-offer">
+          <h1>Instant collaboration for remote teams</h1>
+          <p>
+            All-in-one place for your remote team to chat, collaborate and track
+            project progress.
+          </p>
+
+          <div class="hero-offer-email">
+            <div class="email_wrapper">
+              <input placeholder="Email" />
+              <img
+                src="./assets/img/arrow-right-top.svg"
+                alt="arrow right"
+                style="
+                  position: absolute;
+                  right: 0.2rem;
+                  top: 50%;
+                  transform: translateY(-50%);
+                "
+              />
+            </div>
+            <button>Get Early Access</button>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/img/hero.png" alt="hero image" class="hero__img" />
+    </section>
+
+    <!-- mockup -->
+    <section id="mockup">
+      <div class="container h-100 position-relative">
+        <div class="row h-100">
+          <div class="col-12 col-lg-6 order-2 order-lg-1">
+            <div class="mockup-content h-100">
+              <h2>Chats for your distributed teams</h2>
+              <p>
+                Team combines the immediacy of real-time chat with an email
+                threading model. With Team, you can catch up on important
+                conversations while ignoring irrelevant ones.
+              </p>
+              <div class="mockup-link__wrapper">
+                <a href="#">Learn More</a>
+                <img src="./assets/img/arrow_right.svg" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-6 order-1 order-lg-2"
+            style="height: 656px"
+          ></div>
+        </div>
+        <div class="mockup__img">
+          <div class="mockup-img__wrapper">
+            <img
+              src="./assets/img/dashboard.png"
+              alt="dashboard"
+              style="position: relative; right: -10rem"
+            />
+            <div class="mockup-img__mentor">
+              <img src="./assets/img/mentor.png" />
+              <img class="mockup-img__send" src="./assets/img/send.png" />
+            </div>
+            <img class="mockup-img__task" src="./assets/img/task-today.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- info -->
+    <section id="info">
+      <div class="container">
+        <div class="info_container">
+          <div class="position-relative info_container_img">
+            <img
+              src="./assets/img/img-group-1.png"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <img
+              src="./assets/img/img-group-1-calendar.png"
+              style="position: absolute; top: 1rem; right: 1rem"
+            />
+          </div>
+          <div class="info_container_content">
+            <div class="info-content h-100">
+              <h4>Chats for your distributed teams</h4>
+              <p>
+                Team combines the immediacy of real-time chat with an email
+                threading model. With Team, you can catch up on important
+                conversations while ignoring irrelevant ones.
+              </p>
+              <div class="mockup-link__wrapper">
+                <a href="#">Learn More</a>
+                <img src="./assets/img/arrow_right.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info_container">
+          <div class="info_container_content">
+            <div class="info-content h-100">
+              <h4>Choose how you want to work</h4>
+              <p>
+                In Team, you've got all the flexibility to work when, where and
+                how it's best for you. You can easily chat, send audio and video
+                clips, or hop on a huddle to talk things out live.
+              </p>
+              <div class="mockup-link__wrapper">
+                <a href="#">Learn More</a>
+                <img src="./assets/img/arrow_right.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="position-relative info_container_img">
+            <img
+              src="./assets/img/img-group-2.png"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div class="info_2_img">
+              <img src="./assets/img/img-group-2-chat.png" />
+              <img src="./assets/img/img-group-2-card.png" />
+            </div>
+          </div>
+        </div>
+        <div class="info_container">
+          <div class="position-relative info_container_img">
+            <img
+              src="./assets/img/img-group-3.png"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+            <div
+              style="
+                position: absolute;
+                bottom: 1rem;
+                left: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 11px;
+              "
+            >
+              <img src="./assets/img/img-group-2-chat.png" />
+              <img src="./assets/img/img-group-2-card.png" />
+            </div>
+          </div>
+          <div class="info_container_content">
+            <div class="info-content h-100">
+              <h4>Move faster with your Team tools</h4>
+              <p>
+                With your other work apps connected to Team, you can work faster
+                by switching tabs less. And with powerful tools like Workflow
+                Builder, you can automate away routine tasks.
+              </p>
+              <div class="mockup-link__wrapper">
+                <a href="#">Learn More</a>
+                <img src="./assets/img/arrow_right.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimoni -->
+    <section id="testimonial">
+      <div class="container">
+        <h4 class="title-section" style="text-align: center">
+          What people say about Team
+        </h4>
+        </div>
+        <div class="testimonial__wrapper slider">
+          <!-- 1 -->
+          <div class="slide" style="max-width: 400px">
+            <div class="testimonial__card">
+              <div class="testimonial__rating">
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+              </div>
+              <p class="testimonial__quote">
+                Vestibulum eu quam nec neque pellentesque efficitur id eget nisl.
+                Proin porta est convallis lacus blandit pretium sed non enim.
+                Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
+                ultricies laoreet.
+              </p>
+              <div class="testimonial__profile">
+                <img src="./assets/img/faces-1.png" alt="face" />
+                <div>
+                  <p>Chelsea Morgan</p>
+                  <p>CEO at Subway</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="slide" style="max-width: 400px">
+            <div class="testimonial__card">
+              <div class="testimonial__rating">
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+              </div>
+              <p class="testimonial__quote">
+                In a laoreet purus. Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis.
+              </p>
+              <div class="testimonial__profile">
+                <img src="./assets/img/faces-1.png" alt="face" />
+                <div>
+                  <p>Nick Cave</p>
+                  <p>CMO at Nokia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="slide" style="max-width: 400px">
+            <div class="testimonial__card">
+              <div class="testimonial__rating">
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+              </div>
+              <p class="testimonial__quote">
+                Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate quam a quam volutpat, sed ullamcorper erat commodo.
+              </p>
+              <div class="testimonial__profile">
+                <img src="./assets/img/faces-1.png" alt="face" />
+                <div>
+                  <p>Lana Rosenfeld</p>
+                  <p>Senior VP ot Pinterest</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="slide" style="max-width: 400px">
+            <div class="testimonial__card">
+              <div class="testimonial__rating">
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+              </div>
+              <p class="testimonial__quote">
+                Porta nisl dolor, molestie pellentesque elit molestie in. Morbi metus neque, elementum ullamcorper hendrerit eget, tincidunt et nisi. Sed magna nunc.
+              </p>
+              <div class="testimonial__profile">
+                <img src="./assets/img/faces-1.png" alt="face" />
+                <div>
+                  <p>Chelsea Morgan</p>
+                  <p>CEO at Subway</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="slide" style="max-width: 400px">
+            <div class="testimonial__card">
+              <div class="testimonial__rating">
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+                <img src="./assets/img/star.svg" alt="star icon" />
+              </div>
+              <p class="testimonial__quote">
+                Vestibulum eu quam nec neque pellentesque efficitur id eget nisl.
+                Proin porta est convallis lacus blandit pretium sed non enim.
+                Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum
+                ultricies laoreet.
+              </p>
+              <div class="testimonial__profile">
+                <img src="./assets/img/faces-1.png" alt="face" />
+                <div>
+                  <p>Chelsea Morgan</p>
+                  <p>CEO at Subway</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="testimonial__navigation">
+            <button class="btn-prev">
+              <img src="./assets/img/testimonial-left.svg" alt="" />
+            </button>
+            <button class="btn-next">
+              <img src="./assets/img/testimonial-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__logo">
+            <a class="navbar-brand navbar-brand-ctrsa" href="#">
+              team<span style="color: #5468e7">.</span>
+            </a>
+            <p style="color: #f5f5f5; font-size: 14px; margin-top: 1rem">
+              Collaboration platform for mordern team
+            </p>
+          </div>
+          <div class="footer_links">
+            <ul>
+              <li>
+                <a href="#">Company</a>
+              </li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Screen Sharing</a></li>
+              <li><a href="#">iOS & Android Apps</a></li>
+              <li><a href="#">File Sharing</a></li>
+              <li><a href="#">User Management</a></li>
+            </ul>
+            <ul>
+              <li>Contact Us</li>
+              <li>info@teamapp.com</li>
+              <li>1-800-200-300</li>
+              <li>1010 Sunset Blv. Palo Alto, California</li>
+            </ul>
+            <ul>
+              <li>Stay up to date</li>
+              <li>Subscribe to our newseller</li>
+              <li>
+                <div class="search__footer">
+                  <input type="text" placeholder="Email" />
+                  <img
+                    src="./assets/img/arrow-right-footer.svg"
+                    alt="arrow-right"
+                    style="
+                      position: absolute;
+                      right: 1rem;
+                      top: 50%;
+                      transform: translateY(-50%);
+                      width: 24px;
+                      height: 24px;
+                    "
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__below">
+          <p>© Copyright Team Inc.</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Select all slides
+      const slides = document.querySelectorAll('.slide')
+
+      // loop through slides and set each slides translateX
+      slides.forEach((slide, indx) => {
+        slide.style.transform = `translateX(${indx * 100}%)`
+      })
+
+      // select next slide button
+      const nextSlide = document.querySelector('.btn-next')
+
+      // current slide counter
+      let curSlide = 0
+      // maximum number of slides
+      let maxSlide = slides.length - 1
+
+      // add event listener and navigation functionality
+      nextSlide.addEventListener('click', function () {
+        // check if current slide is the last and reset current slide
+        if (curSlide === maxSlide) {
+          curSlide = 0
+        } else {
+          curSlide++
+        }
+
+        //   move slide by -100%
+        slides.forEach((slide, indx) => {
+          slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`
+        })
+      })
+
+      // select next slide button
+      const prevSlide = document.querySelector('.btn-prev')
+
+      // add event listener and navigation functionality
+      prevSlide.addEventListener('click', function () {
+        // check if current slide is the first and reset current slide to last
+        if (curSlide === 0) {
+          curSlide = maxSlide
+        } else {
+          curSlide--
+        }
+
+        //   move slide by 100%
+        slides.forEach((slide, indx) => {
+          slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`
+        })
+      })
+    </script>
+  </body>
+</html>
