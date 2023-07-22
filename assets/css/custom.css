@@ -620,6 +620,7 @@ h6 {
   display: flex;
   justify-content: flex-end;
   gap: 24px;
+  padding-top: 2rem;
 }
 
 .container > .testimonial__navigation > button {
